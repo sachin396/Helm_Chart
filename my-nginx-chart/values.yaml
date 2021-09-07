@@ -1,0 +1,10 @@
+---
+# Default values for my-nginx-chart.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+container:
+  name: nginx
+  image: nginx:1.19.9-alpine
+  restart: Always
+  labels: nginx-app
