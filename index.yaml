@@ -11,4 +11,15 @@ entries:
     urls:
     - my-nginx-chart-0.1.0.tgz
     version: 0.1.0
+  zookeeper:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-04-28T17:52:03.317268+01:00"
+    description: A Helm chart to manage Nginx on Kubernetes
+    digest: 633427929254aa13dfc40bb9d4a5d39b191904a3a10eb4bb51ddc5fd064aa34f
+    name: zookeeper
+    type: application
+    urls:
+    - Zookeeper-0.1.0.tgz
+    version: 0.1.0
 generated: "2021-04-28T17:52:03.31654+01:00"
